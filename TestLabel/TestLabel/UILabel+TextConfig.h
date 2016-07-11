@@ -18,5 +18,7 @@
 //2.//首先设置text或者attributedText
 -(void)setTextColor:(UIColor *)color range:(NSRange)range;
 -(void)setTextFont:(UIFont *)font range:(NSRange)range;
-
+//设置指定文字的font|color 注意：第一次出现的
+-(void)setDesignatedText:(NSString *)text color:(UIColor *)color;
+-(void)setDesignatedText:(NSString *)text font:(UIFont *)font;
 @end

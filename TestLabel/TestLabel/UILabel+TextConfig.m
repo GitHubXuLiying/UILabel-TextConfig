@@ -42,7 +42,16 @@
         [self updateText];
     }
 }
-
+-(void)setDesignatedText:(NSString *)text color:(UIColor *)color{
+    if (self.text.length && text.length && color) {
+        [self setTextColor:color range:[self.text rangeOfString:text]];
+    }
+}
+-(void)setDesignatedText:(NSString *)text font:(UIFont *)font{
+    if (self.text.length && text.length && font) {
+        [self setTextFont:font range:[self.text rangeOfString:text]];
+    }
+}
 -(void)updateText{
     if (self.textColorDict.allKeys.count == 0 && self.textFontDict.allKeys.count == 0) {
         return;

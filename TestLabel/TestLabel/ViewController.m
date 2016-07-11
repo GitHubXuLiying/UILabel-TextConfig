@@ -30,6 +30,8 @@
     [lab setTextFont:[UIFont systemFontOfSize:15] range:NSMakeRange(0, 2)];
     [lab setTextFont:[UIFont systemFontOfSize:10] range:NSMakeRange(lab.text.length - 1, 1)];
     [lab setTextColor:[UIColor redColor] range:NSMakeRange(lab.text.length - 1, 1)];
+    
+    [lab setDesignatedText:@"+" color:[UIColor greenColor]];
 
 
     

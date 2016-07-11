@@ -11,4 +11,7 @@
 @interface NSMutableAttributedString (add)
 -(void)setTextColor:(UIColor *)color range:(NSRange)range;
 -(void)setTextFont:(UIFont *)font range:(NSRange)range;
+
+-(void)setDesignatedText:(NSString *)text color:(UIColor *)color;
+-(void)setDesignatedText:(NSString *)text font:(UIFont *)font;
 @end
