@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F1967211DD9BC09006D3CD3 /* NSMutableAttributedString+Addtion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F19671E1DD9BC09006D3CD3 /* NSMutableAttributedString+Addtion.m */; };
+		5F1967221DD9BC09006D3CD3 /* UILabel+AttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1967201DD9BC09006D3CD3 /* UILabel+AttributedString.m */; };
+		5F1967251DD9BC44006D3CD3 /* NSObject+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1967241DD9BC44006D3CD3 /* NSObject+Addition.m */; };
 		5F8C605A1D23C28200526E4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8C60591D23C28200526E4B /* main.m */; };
 		5F8C605D1D23C28200526E4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8C605C1D23C28200526E4B /* AppDelegate.m */; };
 		5F8C60601D23C28200526E4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8C605F1D23C28200526E4B /* ViewController.m */; };
@@ -15,8 +18,6 @@
 		5F8C60681D23C28200526E4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F8C60661D23C28200526E4B /* LaunchScreen.storyboard */; };
 		5F8C60731D23C28200526E4B /* TestLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8C60721D23C28200526E4B /* TestLabelTests.m */; };
 		5F8C607E1D23C28200526E4B /* TestLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8C607D1D23C28200526E4B /* TestLabelUITests.m */; };
-		5F8C60991D25035300526E4B /* NSMutableAttributedString+add.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8C60981D25035300526E4B /* NSMutableAttributedString+add.m */; };
-		5F8C60A21D2520B100526E4B /* UILabel+TextConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8C60A11D2520B100526E4B /* UILabel+TextConfig.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F19671D1DD9BC09006D3CD3 /* NSMutableAttributedString+Addtion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+Addtion.h"; sourceTree = "<group>"; };
+		5F19671E1DD9BC09006D3CD3 /* NSMutableAttributedString+Addtion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+Addtion.m"; sourceTree = "<group>"; };
+		5F19671F1DD9BC09006D3CD3 /* UILabel+AttributedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+AttributedString.h"; sourceTree = "<group>"; };
+		5F1967201DD9BC09006D3CD3 /* UILabel+AttributedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+AttributedString.m"; sourceTree = "<group>"; };
+		5F1967231DD9BC44006D3CD3 /* NSObject+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Addition.h"; sourceTree = "<group>"; };
+		5F1967241DD9BC44006D3CD3 /* NSObject+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Addition.m"; sourceTree = "<group>"; };
 		5F8C60551D23C28200526E4B /* TestLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F8C60591D23C28200526E4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5F8C605B1D23C28200526E4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,10 +60,6 @@
 		5F8C60791D23C28200526E4B /* TestLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F8C607D1D23C28200526E4B /* TestLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestLabelUITests.m; sourceTree = "<group>"; };
 		5F8C607F1D23C28200526E4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5F8C60971D25035300526E4B /* NSMutableAttributedString+add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+add.h"; sourceTree = "<group>"; };
-		5F8C60981D25035300526E4B /* NSMutableAttributedString+add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+add.m"; sourceTree = "<group>"; };
-		5F8C60A01D2520B100526E4B /* UILabel+TextConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+TextConfig.h"; sourceTree = "<group>"; };
-		5F8C60A11D2520B100526E4B /* UILabel+TextConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+TextConfig.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,10 +114,12 @@
 				5F8C605C1D23C28200526E4B /* AppDelegate.m */,
 				5F8C605E1D23C28200526E4B /* ViewController.h */,
 				5F8C605F1D23C28200526E4B /* ViewController.m */,
-				5F8C60A01D2520B100526E4B /* UILabel+TextConfig.h */,
-				5F8C60A11D2520B100526E4B /* UILabel+TextConfig.m */,
-				5F8C60971D25035300526E4B /* NSMutableAttributedString+add.h */,
-				5F8C60981D25035300526E4B /* NSMutableAttributedString+add.m */,
+				5F1967231DD9BC44006D3CD3 /* NSObject+Addition.h */,
+				5F1967241DD9BC44006D3CD3 /* NSObject+Addition.m */,
+				5F19671D1DD9BC09006D3CD3 /* NSMutableAttributedString+Addtion.h */,
+				5F19671E1DD9BC09006D3CD3 /* NSMutableAttributedString+Addtion.m */,
+				5F19671F1DD9BC09006D3CD3 /* UILabel+AttributedString.h */,
+				5F1967201DD9BC09006D3CD3 /* UILabel+AttributedString.m */,
 				5F8C60611D23C28200526E4B /* Main.storyboard */,
 				5F8C60641D23C28200526E4B /* Assets.xcassets */,
 				5F8C60661D23C28200526E4B /* LaunchScreen.storyboard */,
@@ -281,9 +286,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F8C60601D23C28200526E4B /* ViewController.m in Sources */,
-				5F8C60A21D2520B100526E4B /* UILabel+TextConfig.m in Sources */,
-				5F8C60991D25035300526E4B /* NSMutableAttributedString+add.m in Sources */,
+				5F1967251DD9BC44006D3CD3 /* NSObject+Addition.m in Sources */,
 				5F8C605D1D23C28200526E4B /* AppDelegate.m in Sources */,
+				5F1967211DD9BC09006D3CD3 /* NSMutableAttributedString+Addtion.m in Sources */,
+				5F1967221DD9BC09006D3CD3 /* UILabel+AttributedString.m in Sources */,
 				5F8C605A1D23C28200526E4B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

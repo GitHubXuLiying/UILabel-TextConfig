@@ -7,8 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "UILabel+TextConfig.h"
-#import "NSMutableAttributedString+add.h"
+#import "UILabel+AttributedString.h"
+#import "NSMutableAttributedString+Addtion.h"
 @interface ViewController ()
 
 @end
