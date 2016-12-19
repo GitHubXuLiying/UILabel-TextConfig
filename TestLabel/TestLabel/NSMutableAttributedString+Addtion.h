@@ -17,4 +17,7 @@
 
 -(void)setDesignatedText:(NSString *)text color:(UIColor *)color;
 -(void)setDesignatedText:(NSString *)text font:(UIFont *)font;
+
+-(void)setDesignatedTexts:(NSArray *)array color:(UIColor *)color;
+-(void)setDesignatedTexts:(NSArray *)array font:(UIFont *)font;
 @end

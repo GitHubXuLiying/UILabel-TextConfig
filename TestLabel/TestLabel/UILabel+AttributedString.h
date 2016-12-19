@@ -10,10 +10,13 @@
 
 @interface UILabel (AttributedString)
 
--(void)setTextColor:(UIColor *)color range:(NSRange)range;
--(void)setTextFont:(UIFont *)font range:(NSRange)range;
+-(void)set_TextColor:(UIColor *)color range:(NSRange)range;
+-(void)set_TextFont:(UIFont *)font range:(NSRange)range;
 
--(void)setDesignatedText:(NSString *)text color:(UIColor *)color;
--(void)setDesignatedText:(NSString *)text font:(UIFont *)font;
+-(void)set_DesignatedText:(NSString *)text color:(UIColor *)color;
+-(void)set_DesignatedText:(NSString *)text font:(UIFont *)font;
+
+-(void)set_DesignatedTexts:(NSArray *)array color:(UIColor *)color;
+-(void)set_DesignatedTexts:(NSArray *)array font:(UIFont *)font;
 
 @end

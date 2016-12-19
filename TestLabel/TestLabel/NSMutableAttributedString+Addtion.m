@@ -61,6 +61,22 @@
     }
 }
 
+-(void)setDesignatedTexts:(NSArray *)array color:(UIColor *)color{
+    if (self.length && array.isNoEmpty && color) {
+        for (NSString *text in array) {
+            [self setDesignatedText:text color:color];
+        }
+    }
+}
+-(void)setDesignatedTexts:(NSArray *)array font:(UIFont *)font{
+    if (self.length && array.isNoEmpty && font) {
+        for (NSString *text in array) {
+            [self setDesignatedText:text font:font];
+        }
+    }
+}
+
+
 - (NSArray *)rangesOfString:(NSString *)searchString inString:(NSString *)str {
     
     if (searchString.isNoEmpty && str.isNoEmpty) {
@@ -79,5 +95,7 @@
     }
     return nil;
 }
+
+
 
 @end
